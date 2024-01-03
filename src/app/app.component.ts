@@ -11,4 +11,11 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'agent-login';
+ public name:any="asfddf";
+  print(event:any){
+    return this.name=event.target.value;
+
+}
+
+
 }
